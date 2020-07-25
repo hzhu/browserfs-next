@@ -1,15 +1,19 @@
 {
-  "name": "browserfs-spike",
+  "name": "browserfs-next",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Henry Zhu <hz@henryzhu.me",
+  "homepage": "https://browserfs-next.vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "browserfs": "^1.4.3",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "worker-loader": "^2.0.0"
   }
 }
